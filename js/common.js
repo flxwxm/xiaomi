@@ -1,6 +1,6 @@
 $(function(){
 
-	/*$("#j-topbarCartLink").hover(
+	$("#j-topbarCartLink").hover(
 		function(){
 			$(this).addClass("topbar-link-act");
 			$("#j-topbarCartList").slideDown(300);
@@ -304,5 +304,5 @@ $(function(){
 	content($(".content-book"));
 	content($(".content-MIUI"));
 	content($(".content-app"));
-	content($(".content-game"));*/
+	content($(".content-game"));
 });
