@@ -1,0 +1,120 @@
+.logo{
+	height:98px;
+	background: url(../img/login/login_logo.jpg) no-repeat 0 center;
+	width:1130px;
+}
+.main-wrap{
+	background: #14212a;
+	margin-bottom: 68px;
+}
+.main{
+	background: url(../img/login/login_bg.jpg) no-repeat;
+	height:588px;
+	position: relative;
+}
+.login-box{
+	width: 340px;
+	height:468px;
+	background: #fff;
+	position: absolute;
+	top:32px;
+	right:70px;
+	padding:28px 30px;
+}
+.title{
+	margin-bottom: 32px;
+}
+.title .sep{
+	font-size: 30px;
+	color:#e0e0e0;
+	font-weight: normal;
+	margin:0 40px;
+}
+.title-act,.title a:hover{
+	color:#f56600;
+}
+.inputbg{
+	height:48px;
+	border:1px solid #e0e0e0;
+	margin-bottom: 14px;
+}
+.login-inp{
+	padding-left: 14px;
+	border:none;
+	background: none;
+	height:48px;
+	width:100%;
+	font-size: 14px;
+}
+.btnbg{
+	height:50px;
+	background: #f56600;
+	margin-top: 24px;
+}
+.btnbg .login-inp{
+	font-size: 18px;
+	color:#fff;
+	cursor: pointer;
+}
+.login-area{
+	margin-bottom: 18px;
+}
+.err-info{
+	margin-bottom: -10px;
+	font-size: 14px;
+	color:#f56600;
+	display: none;
+}
+.help .sep{
+	color:#999;
+	margin:0 6px;
+}
+.help a{
+	color:#999;
+	font-size: 14px;
+}
+.help a:hover{
+	color:#f56600;
+}
+.other-title{
+	border-top:1px solid #e0e0e0;
+	margin-bottom: 12px;
+}
+.other-title legend{
+	color:#bbb;
+	font-size: 14px;
+}
+.other{
+	position: absolute;
+	bottom:30px;
+	left:;
+	width:340px;
+}
+.way a{
+	color:#949494;
+	display: inline-block;
+	margin:0 10px;
+}
+.qq:hover{
+	color:blue;
+}
+.weixin:hover{
+	color:green;
+}
+.weibo:hover{
+	color:#E34A4A;
+}
+.twocode{
+	margin-top: 100px;
+	display: none;
+}
+.code-img{
+	margin-bottom: 20px;
+}
+.text{
+	color:#757575;
+	font-size: 14px;
+}
+.dif-color{
+	color:#ff6700;
+}

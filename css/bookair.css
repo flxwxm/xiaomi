@@ -1,0 +1,581 @@
+
+.mainHead{
+	height:50px;
+	background-color: #f5f5f5;
+	line-height: 50px;
+}
+.mainHead .title{
+	font-size: 18px;
+	float:left;
+}
+.mainHead-right{
+	float:right;
+}
+.mainHead .nav_a,.mainHead-nav{
+	display: inline-block;
+	
+}
+.mainHead-nav{
+	margin-right: 8px;
+}
+.mainHead-nav .nav_a{
+	color:#616161;
+}
+.mainHead-nav .nav_a:hover{
+	color:#ff6700;
+}
+.mainHead .sep{
+	margin:0 4px 0 8px ;
+	color:#e0e0e0;
+}
+.nav_a-btn{
+	width:118px;
+	height:28px;
+	background-color: #ff6700;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	color:#fff;
+}
+.mainHead-hide{
+	background:rgba(255,255,255,0.9);
+	box-shadow: 0 0 3px #b0b0b0;
+	position: fixed;
+	top:0;
+	z-index: 100;
+	width:100%;
+	margin-top: -52px;
+	transition: margin-top 500ms ease-out;
+}
+
+.summary{
+	color:#424242;
+}
+.summary .title{
+	letter-spacing: 6px;
+	font-weight: normal;
+}
+.summary h2.title{
+	font-size: 40px;
+	line-height: 54px;
+}
+
+.section .isHide{
+	opacity: 0;
+	transform: translateY(30px);
+	transition:transform 700ms cubic-bezier(0.25, 0.46, 0.33, 0.98) 0s, opacity 700ms cubic-bezier(0.25, 0.46, 0.33, 0.98) 0s; 
+}
+.section p.section_p{
+	transition-delay: 700ms;
+}
+.section h2.title{
+	transition-delay: 500ms;
+}
+.section.isShow .isHide{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.section-index{
+	text-align: center;
+	height:1040px;
+	position: relative;
+}
+.section-index .container{
+	position: relative;
+	z-index: 10;
+}
+.section-index .title{
+	font-size:40px;
+	line-height: 54px;
+	margin:70px 0 20px;
+}
+.section-index .price{
+	color:#e53935;
+}
+.section-index .category{
+	border:1px solid #e53935;
+	height:20px;
+	line-height: 20px;
+	padding:0 15px;
+	font-size:16px;
+}
+.section-index .sep{
+	color:#424242;
+	margin-right: 20px;
+}
+.section-index .price_span{
+	display: inline-block;
+}
+.section-index .price-num{
+	font-size:26px;
+	padding:0 25px;
+}
+.section-index .big-img{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-index.jpg") no-repeat center 0;
+	height:100%;
+	width:100%;
+	position: absolute;
+	top:0;
+	z-index: 5;
+}
+.section p{
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+}
+/*section2*/
+.section2_p{
+	margin-bottom: 60px;
+}
+.section2_li{
+	float:left;
+	width:408px;
+	height:202px;
+}
+.section2_ul{
+	margin-bottom: 60px;
+}
+
+.section3{
+	height:850px;
+	overflow:hidden;
+}
+.section3-img{
+	width:100%;
+	height:898px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-section03.jpg") no-repeat center -30px;
+	transition: transform 700ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+	transform:translateY(0px);
+}
+.section_p-title{
+	line-height: 54px;
+	margin:115px auto 10px;
+}
+.section-title{
+	margin-bottom: 20px;
+}
+.section4_ul{
+	width:600px;
+	margin:50px auto;
+}
+.section4_li{
+	width: 50%;
+	height:;
+	float:left;
+}
+.section_span-num{
+	font-size: 34px;
+	line-height: 80px;
+	color:#b0b0b0;
+}
+.section_span-info{
+	font-size: 16px;
+	color:#212121;
+}
+.section4-img{
+	height:376px;
+	width:100%;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-body.jpg") no-repeat center 0;
+	margin-top:100px;
+}
+
+.section5-img{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-etc.jpg") no-repeat center 80px;
+	height:640px;
+}
+.section5 .container,.section6 .container,.section7 .container{
+	position: relative;
+}
+.section5_li{
+	height:200px;
+}
+.section5_ul{
+	position: absolute;
+	top:400px;
+	right:30px;
+}
+.section6 .container{
+	padding-top: 200px;
+	
+}
+.section6{
+	position: relative;
+	padding-bottom: 365px;
+}
+.section6 .section-con{
+	position: relative;
+	top:0px;
+	z-index: 10;
+}
+.section6 h2.title,.section7 h2.title{
+	font-size: 30px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+.section6 .section_p{
+	width:530px;
+	margin-bottom: 50px;
+}
+.section6_ul,.section7_ul{
+	margin-bottom: 44px;
+}
+.section6_li,.section7_li{
+	float:left;
+	width:310px;
+	border-right:1px solid #C8C8C8;
+}
+.section6_li .section_span-num,.section7_li .section_span-num{
+	display: inline-block;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.section6_li.noBorder,.section7_li.noBorder{
+	border-right:none;
+	padding-left: 50px;
+}
+.section6-pic{
+	width:143px;
+	height:120px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-section04-pic.jpg") no-repeat;
+}
+.section6-img{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-section04.jpg") no-repeat center 0;
+	height:852px;
+	width:962px;
+	position: absolute;
+	z-index: 5;
+	left:132px;
+	top:110px;
+}
+
+.section7 .section-con{
+	margin-left: 490px;
+	position: relative;
+}
+.section7 .section_p{
+	margin-bottom: 50px;
+}
+.section7_li{
+	width:150px;
+}
+.section7 h2.title{
+	margin-left: 180px;
+}
+.section7-pic{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-section05-pic.jpg") no-repeat 0 0;
+	height:128px;
+	width:171px;
+	position: absolute;
+	top:-38px;
+}
+
+.section8{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-screen-bg.jpg") no-repeat scroll 50% 300px;
+}
+.section8 .section_span-info{
+	display: inline-block;
+	margin-bottom: 680px;
+}
+.section8_li{
+	float:left;
+	width:350px;
+	text-align: left;
+}
+.section8_li.first{
+	margin:0 234px;
+}
+.section8 .section8_p-info{
+	font-size: 16px;
+	letter-spacing: 0;
+	padding-top: 20px;
+}
+.section8-num{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.section9{
+	padding-top:100px;
+}
+.section9_li{
+	float:left;
+	width:300px;
+	text-align: center;
+}
+.section9_li.first{
+	border-right:1px solid #C3C3C3;
+}
+.section9_ul{
+	width:602px;
+	margin:50px auto 0;
+}
+
+.section10{
+	overflow-x: hidden;
+}
+.section10 .container{
+	position: relative;
+	padding-top: 140px;
+}
+.section10-pic1{
+	position: absolute;
+	width:100%;
+	height:600px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-battery-01.png") no-repeat;
+	left:-150px;
+}
+.section10-pic2{
+	position: absolute;
+	width:100%;
+	height:600px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-battery-02.png") no-repeat;
+	right:-300px;
+	top:60px;
+}
+.section10 .section-con{
+	margin-top: 700px;
+}
+.section10 .section_span{
+	display: inline-block;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-sound-icon.jpg") no-repeat;
+	width:532px;
+	height:91px;
+	margin: 50px 0;
+}
+.section10-img{
+	width:100%;
+	height:428px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-sound-pic1.png") no-repeat center 0;
+	margin-bottom: 250px;
+}
+.section11{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-interface.jpg") no-repeat center 0; 
+	padding-top: 100px;
+	height:1029px;
+}
+.section12{
+	padding: 90px 0 100px;
+}
+.section12 h2.title{
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+.section12-img{
+	width:515px;
+	height:188px;
+	margin:0 auto;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-adapter.jpg") no-repeat center 0; 
+	margin-bottom: 40px;
+}
+
+.section13{
+	height:898px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-pwd.jpg") no-repeat center 0; 
+	position: relative;
+}
+.section13 .section-con{
+	position: absolute;
+	top:180px;
+	right:50px;
+	color:#fff;
+}
+.section13 h2.title{
+	line-height: 90px;
+}
+
+.section14_ul{
+	margin:80px 0 140px;
+}
+.section14_li{
+	float:left;
+	width:408px;
+	padding:20px 0 50px;
+}
+.bb{
+	border-bottom:1px solid #DDD;
+}
+.br{
+	border-right:1px solid #ddd;
+}
+
+.section15-up{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-thin.jpg") no-repeat center 0; 
+	height:600px;
+	width:100%; 
+	padding-top: 300px;
+}
+.section15 h2.title{
+	margin-bottom: 20px;
+}
+.section15_li{
+	float:left;
+	width:256px;
+	padding-right:50px;
+}
+.section15 .section_span-num{
+	font-size: 18px;
+	color:#424242;
+}
+.section15 .section_span-info{
+	font-size: 18px;
+}
+.no-pa{
+	padding-right: none;
+}
+.section15_ul{
+	width:1226px;
+	margin:80px auto 140px;
+}
+
+.section16_ul{
+	text-align: left;
+	margin-top: 50px;
+}
+.section16_li{
+	float:left;
+
+}
+.section16_li.first{
+	margin-right:230px;
+}
+.section16-pic1,.section16-pic2{
+	margin-bottom: 20px;
+}
+.section16-pic1{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-verison-pic01.jpg") no-repeat;
+	height:295px;
+	width:530px;
+}
+.section16-pic2{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/summary-verison-pic02.jpg") no-repeat;
+	height:295px;
+	width:460px;
+}
+.section16-title{
+	font-size: 18px;
+	line-height: 40px;
+}
+.section16-info{
+	font-size: 14px;
+	line-height: 26px;
+	display: inline-block;
+	margin-bottom: 60px;
+}
+.section16 .price,.section16 .btn{
+	color:#e53935;
+}
+.section16 .price{
+	font-size: 18px;
+}
+.section16 .btn{
+	display: block;
+	width:160px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	border:1px solid #e53935;
+	margin:20px 0 100px;
+	transition: all 200ms linear;
+}
+.section16 .btn:hover{
+	background-color:  #e53935;
+	color:#fff;
+}
+
+.section17{
+	background-color: #f5f5f5;
+	padding: 70px 0;
+	position: relative;
+}
+.slideWrap{
+	height:353px;
+	overflow: hidden;
+	position: relative;
+}
+.section17_ul{
+	width:410%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.section17_li{
+	height:353px;
+	float:left;
+	width:1226px;
+}
+.section17 .content{
+	float:right;
+	margin-right:100px;
+}
+.section17 h2.title{
+	font-size: 28px;
+	line-height: 42px;
+	letter-spacing: 0;
+	margin-bottom: 25px;
+}
+.section17 .section17-info,.section17 .price,.section17 .free{
+	font-size: 16px;
+	line-height: 28px;
+}
+.section17 .section17-info{
+	letter-spacing: 0;
+	margin-bottom: 20px;
+}
+.section17 .price{
+	color: #e53935;
+}
+.section17 .free{
+	letter-spacing: 0;
+}
+.slide1{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/book-img2.png") no-repeat 60px center;
+}
+.slide2{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/book-img1.png") no-repeat 60px center;
+}
+.section17 .btn{
+	position: absolute;
+	width: 87px;
+	height:87px;
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/book-btns.png") no-repeat;
+	bottom:-44px;
+	left:613px;
+}
+
+.section18{
+	padding-top: 130px;
+}
+.section18-img{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/book-bg1.jpg") no-repeat center center;
+	height:1056px;
+}
+
+.section19{
+	background:url("http://c1.mifile.cn/f/i/16/mibookair/summary/book-bg2.jpg") no-repeat center center;
+	height:865px;
+}
+.section19 h2.title{
+	font-size: 30px;
+	line-height: 44px;
+	margin-bottom: 30px;
+}
+.section19 .section_p{
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+.section19 .container{
+	padding-top: 240px;
+}
+
+.section20{
+	padding: 70px 0 30px;
+}
+.section20 .section20_p{
+	font-size: 12px;
+	letter-spacing: 0;
+	color:#ccc;
+	line-height: 1.5;
+	padding:0 50px;
+}

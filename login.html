@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小米账号--登录</title>
+<meta name="description" content="小米商城直营小米公司旗下所有产品，囊括小米手机系列小米MIX、小米Note 2，红米手机系列红米Note 4、红米4，智能硬件，配件及小米生活周边，同时提供小米客户服务及售后支持。">
+<meta name="keywords" content="小米,小米5s,红米Note4,小米MIX,小米商城">
+<link rel="shortcut icon" href="bitbug_favicon.ico" /> 
+<link href="css/common.css" rel="stylesheet">
+<link href="css/login.css" rel="stylesheet">
+<link href="css/iconfont.css" rel="stylesheet">
+</head>
+<body>
+    <div class="logo wrap_c"></div>
+    <div class="main-wrap">
+        <div class="main wrap_c">
+            <div class="login-box">
+                <div class="title t_c">
+                    <a href="javascript:void(0);" class="j-title title_24 title-act">账号登录</a><span class="sep">|</span>
+                    <a href="javascript:void(0);" class="j-title title_24">扫码登录</a>
+                </div>
+                <div class="content">
+                    <div class="login-area">
+                        <form action="#" method="post">
+                            <div class="inputbg">
+                                <input type="text" class="login-inp j-loginInp" placeholder="邮箱/手机号码/小米账号">
+                            </div>
+                            <div class="inputbg">
+                                <input type="password" class="login-inp j-loginInp" placeholder="密码">
+                            </div>
+                            <p class="err-info"><i class="iconfont">&#xe61b;</i>用户名或密码不正确！</p>
+                            <div class="btnbg">
+                                <input type="submit" class="login-inp" value="立即登录">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="help t_c">
+                        <a href="register.html" class="reg">注册小米账号</a><span class="sep"> | </span><a class="forget" href="#">忘记密码？</a>
+                    </div>
+                    <div class="other">
+                        <fieldset class="other-title">
+                            <legend align="center">其它方式登录</legend>
+                        </fieldset>
+                        <div class="way t_c">
+                            <a href="#" class="qq"><i class="iconfont">&#xe607;</i></a>
+                            <a href="#" class="weixin"><i class="iconfont">&#xe606;</i></a>
+                            <a href="#" class="weibo"><i class="iconfont">&#xe60a;</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="twocode t_c">
+                    <img src="img/login/code.jpg" alt="" class="code-img" width="180px" height="180px">
+                    <p class="text text1">使用<span class="dif-color">小米商城APP</span>扫一扫</p>
+                    <p class="text text2">MIUI系统可进入「设置」-「我的小米」扫码登录</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="l-footer">
+        <div class="foot-nav"><a class="foot-act" href="javascript:void(0)">简体</a><span class="sep">|</span>
+        <a href="javascript:void(0)">繁体</a><span class="sep">|</span>
+        <a href="javascript:void(0)">English</a><span class="sep">|</span>
+        <a href="#">常见问题</a></div>
+        <p class="copyright">小米公司版权所有-<a href="#">京ICP备10046444-京公网安备11010802020134号</a>-京ICP证110507号</p>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $(".j-title").click(function(){
+            $(".j-title").removeClass("title-act");
+            $(this).addClass("title-act");
+        });
+        $(".j-title").eq(0).click(function(){
+            $(".content").show();
+            $(".twocode").hide();
+        });
+        $(".j-title").eq(1).click(function(){
+            $(".twocode").show();
+            $(".content").hide();
+        });
+        $(".j-loginInp").on("keyup",function(){
+            $(".err-info").hide();
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,527 @@
+/*reset*/
+body,p,ul,h1,h2,h3,h4,h5,h6,input,form,dl,dt,dd,fieldset,legend{
+	margin:0;padding:0;
+}
+body,button, input, select, textarea{
+	font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color:#333;
+}
+input,button{
+	border:none;
+	background: none;
+}
+li{
+	list-style: none;
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	color:#000;
+}
+h2{
+	font-size: 24px;
+	font-weight:normal;
+}
+h6{
+	font-size: 14px;
+	font-weight:normal;
+}
+em,i{
+	font-style: normal;
+}
+img{
+	border:none;
+	vertical-align: top;
+}
+fieldset{
+	border:none;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+	height:0;
+}
+.hide{
+	display: none;
+}
+.mar_l{
+	margin-left: -14px;
+}
+.container,.wrap_c{
+	width:1226px;
+	margin:0 auto;
+}
+.t_c{
+	text-align: center;
+}
+/*header*/
+.header-wrap{
+	position: relative;
+}
+.child-list-wrap{
+	width:100%;
+	padding-top: 30px;
+	height:210px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	position: absolute;
+	top:98px;
+	border-top: 1px solid #B9B9B9;
+	display: none;
+	z-index: 20;
+	background: #fff;
+}
+.header{
+	height:100px;
+	position: relative;
+}
+.head-logo-link{
+	display: inline-block;
+	width:56px;
+	height:56px;
+	background: url(../img/index/logo.jpg) no-repeat;
+	float:left;
+	margin-top: 22px;
+}
+/*head-nav*/
+.head-nav{
+	height:78px;
+	float:left;
+	margin: 22px 0 0 80px;
+}
+.nav-list{
+	height:78px;
+}
+.nav-item{
+	float:left;
+	height:78px;
+}
+.hidden{
+	visibility: hidden;
+}
+.nav-link{
+	display: block;
+	height:56px;
+	line-height: 56px;
+	padding:0 10px 22px;
+	font-size: 16px;
+}
+.nav-link:hover{
+	color:#ff6700;
+}
+/* 二级菜单 */
+.child-nav{
+	display: none;
+}
+.child-list{
+	height:210px;
+}
+.child-item{
+	float:left;
+	width:202px;
+	border-right:1px solid #B9B9B9;
+	height:100px;
+	text-align:center;
+	overflow:visible;
+}
+.child-figure-link{
+	display: block;
+	width:106px;
+	margin:0 auto;
+	height:126px;
+}
+
+/* 搜索框 */
+.head-search{
+	width:296px;
+	height:50px;
+	position: absolute;
+	right:0;
+	top:25px;
+} 
+.search-text{
+	width:234px;
+	height:48px;
+	border:1px solid #e0e0e0;
+	position: absolute;
+	padding-left: 10px;
+}
+.search-btn{
+	width:51px;
+	height:50px;
+	border:1px solid #e0e0e0;
+	position: absolute;
+	right:0;
+	cursor: pointer;
+}
+.head-search .iconfont{
+	display: block;
+	width:51px;
+	height:50px;
+	position: absolute;
+	right:0px;
+	line-height: 50px;
+	text-align: center;
+	color:#616161;
+	cursor: pointer;
+	font-weight: bold;
+	transition: all 200ms;
+}
+.search-hot-words{
+	position: absolute;
+	top:16px;
+	right:62px;
+}
+.search-hot-link{
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	background: #eee;
+	padding:0 4px;
+	color:#757575;
+	transition: all 200ms;
+}
+.search-hot-link:hover,.head-search .iconfont:hover{
+	background-color:#ff6700;
+	color:#fff;
+}
+.search-hover{
+	border:1px solid #8E8E8E;
+}
+.search-click{
+	border:1px solid #ff6700;
+}
+.search-keys{
+	position: absolute;
+	top:49px;
+	border:1px solid #ff6700;
+	width:244px;
+	z-index: 19;
+	background-color: #fff;
+}
+.keys-link{
+	display: block;
+	height:28px;
+	line-height: 28px;
+	padding:0 10px;
+	color:#333;
+}
+.keys-link:hover{
+	background: #F5F5F5;
+}
+.keys-num{
+	float:right;
+	color:#9E9E9E;
+}
+/* head-nav end */
+
+/*topbar*/
+.topbar{
+	height:40px;
+	background-color: #333;
+}
+.topbar .topbar-link{
+	color:#b0b0b0;
+	line-height: 40px;
+}
+.topbar-nav{
+	float:left;
+	height:40px;
+}
+
+.topbar-link:hover{
+	color:#fff;
+}
+.topbar .sep{
+	color:#424242;
+	margin:0 6px;
+}
+.topbar-cart{
+	float:right;
+	height:40px;
+	position: relative;
+	z-index: 11;
+}
+.topbar-cart .topbar-link{
+	display: block;
+	height:40px;
+	background-color: #424242;
+	padding:0 16px;
+}
+.topbar-cart .topbar-link-act{
+	color:#ff6700;
+	background-color: #fff;
+}
+.topbar-cart .iconfont{
+	margin-right:4px;
+	font-weight: bold;
+}
+.topbar-cart-list{
+	width:300px;
+	position: absolute;
+	top:40px;
+	right:0;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	display: none;
+	z-index: 10;
+}
+.cart-no-product{
+	height:100px;
+	text-align:center;
+	line-height: 100px;
+}
+.topbar-user{
+	float:right;
+	height:40px;
+	margin-right: 30px;
+}
+
+/*banner-nav*/
+.banner-nav-wrap{
+	position: relative;
+	height:0;
+}
+.banner-nav{
+	width:234px;
+	background-color: #fff;
+	padding:20px 0;
+	position: absolute;
+	top:0;
+	z-index: 10;
+	border:1px solid #ff6902;
+}
+.banner-nav-item .banner-nav-link{
+	display: block;
+	width:184px;
+	height:42px;
+	line-height: 42px;
+	padding:0 20px 0 30px;
+	font-size: 14px;
+	color:#333;
+}
+.banner-nav-item .banner-nav-link:hover{
+	background-color: #ff6700;
+}
+.banner-nav-item span{
+	float:left;
+}
+.banner-nav-item .iconfont{
+	float:right;
+	font-size: 16px;
+	font-weight:bold;
+}
+.banner-nav-child{
+	position: absolute;
+	left:234px;
+	top:0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-left: 1px solid #ff6902;
+
+}
+.banner-nav-child ul{
+	float:left;
+	background-color: #fff;
+	height:460px;
+}
+.banner-child-link{
+	display: block;
+	height:76px;
+	width:290px;
+	padding-right:10px;
+	line-height: 76px;
+	font-size: 14px;
+}
+.banner-child-left{
+	float:left;
+	height:76px;
+	padding-left:20px;
+	width:208px;
+}
+.banner-child-left:hover{
+	color:#ff6700;
+}
+.banner-child-link img{
+	float:left;
+	padding-top: 19px;
+}
+.banner-child-link .pro-name{
+	float:left;
+	margin-left: 10px;
+}
+.banner-child-link .pro-choose{
+	float:right;
+	display: block;
+	width:60px;
+	height:20px;
+	line-height: 20px;
+	margin-top: 28px;
+	border:1px solid #ff6700;
+	text-align: center;
+	color:#ff6700;
+	transition: all 200ms;
+}
+.banner-child-link .pro-choose:hover{
+	background-color: #ff6700;
+	color:#fff;
+}
+/*登录、注册footer*/
+.l-footer{
+	text-align:center;
+}
+.foot-nav{
+	padding-bottom: 12px;
+}
+.foot-nav a{
+	color:#757575;
+}
+a.foot-act{
+	color:#333;
+}
+.foot-nav .sep{
+	margin:0 10px;
+	color:#bb9dbb;
+}
+.copyright{
+	color:#9d9d9d;
+}
+.copyright a{
+	color:#9d9d9d;
+}
+/*登录、注册footer end*/
+
+/*footer*/
+.footer_div-top{
+	height: 78px;
+	line-height: 78px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.footer_div-top .sep{
+	display: block;
+	float:left;
+	color:#e0e0e0;
+}
+.footer_a-link{
+	display: block;
+	float:left;
+	width:242px;
+	text-align: center;
+	transition:all 200ms linear;
+	color:#60625f;
+}
+.footer_a-link:hover,.footer-bottomLeft a:hover,.footer_dd a:hover{
+	color:#ff6703;
+}
+.footer-center{
+	padding: 36px 0;
+}
+.footer-centerLeft{
+	width:975px; 
+	float:left;
+}
+.footer_dl{
+	float:left;
+	width:162px;
+}
+.footer_dt{
+	margin-bottom: 24px;
+	color:#60625f;
+}
+.footer_dd{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.footer_dd a{
+	color:#73746f;
+}
+.footer-centerRight{
+	width: 250px;
+	float:right;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+}
+.footer_p-phone{
+	color:#f60;
+	font-size: 20px;
+}
+.footer_p-time{
+	color:#5e645a;
+	margin-bottom: 14px;
+}
+.footer_p-time span{
+	font-size: 12px;
+}
+.footer_a-btn{
+	color:#f60;
+	display: block;
+	width:118px;
+	height:28px;
+	border:1px solid #f60;
+	line-height: 28px;
+	margin:0 auto;
+	transition: all 200ms linear;
+}
+.footer_a-btn:hover{
+	background-color: #f60;
+	color:#fff;
+}
+.footer_a-btn .iconfont{
+	font-size: 12px;
+}
+.footer-bottom{
+	background: #fafafa url(../img/index/footer-slogan.jpg) no-repeat center 112px;
+	padding-top: 30px;
+}
+.footer-bottomLeft{
+	float:left;
+	background:url(../img/index/footer-logo.jpg) no-repeat 0 0;
+	height:136px;
+	padding-left: 66px;
+}
+.footer_ul-nav{
+	height:18px;
+	
+}
+.footer_ul-nav .sep{
+	float:left;
+	color:#acacac;
+	margin:0 4px;
+}
+.footer_li-item{
+	float:left;
+}
+.footer_li-item a{
+	color:#777278;
+	font-size: 12px;
+}
+.footer_p-state,.footer_p-state a,.footer-bottomRight a{
+	color:#acacac;
+	font-size: 12px;
+}
+.footer-bottomRight{
+	float:right;
+}
+.footer-bottomRight a{
+	display: inline-block;
+	width:;
+	padding-left:24px;
+	margin:6px;
+}
+.footerBottom_a-1{
+	width:62px;
+	height:28px;
+	background:url(../img/index/footer-renzen.jpg) no-repeat 0 5px;
+}
+.footerBottom_a-2{
+	background:url(../img/index/footer-logo1.jpg) no-repeat 0 5px;
+}
+.footerBottom_a-3{
+	background:url(../img/index/footer-logo2.jpg) no-repeat 0 5px;
+}
+.footerBottom_a-4{
+	background:url(../img/index/footer-logo3.jpg) no-repeat 0 5px;
+}
